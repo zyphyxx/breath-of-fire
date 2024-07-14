@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do List</title>
+</head>
+
+<body>
+  <main>
+    <h1 id="title">Aplicativo de lista de tarefas</h1>
+    <div>
+      <form action="" method="post">
+        <input type="text" placeholder="Digite a tarefa" id="input">
+        <input type="button" value="salvar" onclick="addTask()">
+      </form>
+    </div>
+
+    <fieldset>
+      <legend>
+        <h3>Tarefas</h3>
+      </legend>
+      <ul id="ol"></ul>
+    </fieldset>
+    <br>
+
+    <fieldset>
+      <legend>
+        <h3>Apagar</h3>
+      </legend>
+      <form action="">
+
+        <input type="number" value="" id="del" placeholder="Digite o numero">
+        <input type="button" value="apagar" onclick="removeTask()">
+      </form>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend><h3>Atualizar</h3></legend>
+      <div>
+        <form action="" method="post">
+          <input type="text" placeholder="Digite a tarefa" id="update">
+          <input type="number" value="" id="index" placeholder="Digite o numero">
+          <input type="button" value="atualizar" onclick="updateTask()">
+        </form>
+      </div>
+    </fieldset>
+
+  </main>
+</body>
+<script src="index.js"></script>
+
+</html>
