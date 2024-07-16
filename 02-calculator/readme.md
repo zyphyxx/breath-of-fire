@@ -1,0 +1,2 @@
+- **Descrição**: Crie uma calculadora básica com operações aritméticas simples (soma, subtração, multiplicação, divisão).
+- **Conceitos**: Manipulação do DOM, eventos, funções.
